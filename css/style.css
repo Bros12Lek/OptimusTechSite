@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.jobs{
+    position: relative;
+}
+
+.jobs p{
+    font-size: 20px;
+}
+
+.anuncio{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 90vh;
+    right: 90vh;
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(124, 124, 124);
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+    color: rgb(180, 19, 19);
+}
+
+.anuncio-2{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.anuncio-3{
+    display: flex;
+    justify-content: center;
+    color: rgb(189, 192, 192);
+}
+
+.foto-empregos{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.foto-jobs{
+    width: 88%;
+   
+    margin: auto;
+    display: block;
+    border-radius: 2vh;
+}
+
+.design{
+    margin-top: 15px;
+}
+
+.vagas{
+    margin-top: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.vagas h1{
+    position: relative;
+    
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.design-vagas h1{
+    margin-bottom: 15px;
+}
+
+.emprego{
+    border: 1px solid rgb(190, 178, 178);
+    border-radius: 1vh;
+    margin-bottom: 25px;
+}
+
+.emprego h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.emprego p{
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
