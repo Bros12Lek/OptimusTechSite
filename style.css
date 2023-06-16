@@ -1,0 +1,56 @@
+
+
+.diferenciais{
+    
+    text-align: center;
+    margin-bottom: 9vh;
+    margin-top: 120px;
+}
+
+.diferenciais p{
+    color: #7c0a02;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+.diferenciais h1{
+    font-size: 60px;
+    margin-top: auto;
+}
+.diferenciais h2{
+    color: #667085;
+    font-size: 100%;
+    font-size: 18px;
+}
+
+
+.met{
+    display: flex;
+    align-self: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.met div{
+    text-align: center;
+    
+}
+.met h1{
+    font-size: 80px;
+    color: #7c0a02;
+    margin-bottom: 0px;
+
+}
+.met h2{
+    font-size: 29px;
+}
+
+.met p{
+    color: #667085;
+}
+
+
+
+
+
+
