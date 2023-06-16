@@ -1,0 +1,102 @@
+/*Talita*/
+
+* {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#depoimentos {
+    background: rgba(196, 25, 25, 0.03);
+    height: 330px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding-top: 40px;
+}
+
+#form{
+    background-color: #F9FAFB;
+    height: 430px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 96px;
+}
+
+#colab, #jc, #dev, #op, #copy, #vgab, #vermelho{
+    text-align: center;
+}
+
+figure{
+    margin: 0 auto;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+form #email{
+    height: 48px;
+    width: 360px;
+    border-radius: 8px;
+}
+
+#vermelho{
+    color: #7c0a02
+}
+
+#cad{
+    background-color: #7c0a02;
+    color: white;
+    height: 48px;    
+    width: 116px;
+    border-radius: 8px;
+}
+
+p{
+    color: #667085;
+}
+
+#copy{
+    color: #98A2B3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#nada{
+    padding: 46px;
+}
+
+#jc{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#dev{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#op{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#vgab{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#colab{
+    
+    line-height: 44px;
+}
+
+#dev{
+    font-size: 14px;
+    line-height: 20px;
+}
