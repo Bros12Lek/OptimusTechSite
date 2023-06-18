@@ -2,7 +2,7 @@
     
     text-align: center;
     margin-bottom: 9vh;
-    margin-top: 120px;
+    margin-top: 75px;
 }
 
 .diferenciais p{
@@ -48,10 +48,12 @@
 }
 
 #depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     background: rgba(196, 25, 25, 0.03);
-    height: 330px;
+    height: max-content;
     width: 80%;
-    margin: 0 auto;
     border-radius: 16px;
     padding-top: 40px;
 }
@@ -60,7 +62,6 @@
     background-color: #F9FAFB;
     height: 430px;
     width: 100%;
-    margin: 0 auto;
     padding-top: 96px;
 }
 
@@ -104,7 +105,7 @@ p{
     color: #98A2B3;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 5rem;
 }
 
 #nada{
@@ -142,3 +143,4 @@ p{
     font-size: 14px;
     line-height: 20px;
 }
+

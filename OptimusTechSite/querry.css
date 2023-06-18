@@ -1,0 +1,36 @@
+@media only screen and (max-width:428px) {
+
+    .btnCad{
+        width: max-content ;
+    }
+
+    .met{
+        flex-direction: column;
+    }
+
+    .emprego{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .desenvolvimento-vagas h1, .design{
+        text-align: center;
+    }
+
+    .foto-jobs{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #depoimentos{
+       display: flex;
+       flex-direction: column;
+       height: max-content;
+    }
+
+    #cad{
+        margin-top:  20px;
+    }
+}

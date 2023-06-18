@@ -8,24 +8,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css" media="all">
+    <link rel="stylesheet" type="text/css" href="querry.css" media="all">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">  
     <title>OptimusTech</title>
 </head>
 <body>
     <header>
-            
-            <img src="imgs/logo.png" alt="Logo da Empresa">
-            <h1>Optimus Tech</h1>
-            <ul>
-                <li>Home</li>
-                <li>Produtos</li>
-                <li>Recursos</li>
-                <li>Sobre nós</li>
-            </ul>
-            <button class="btnLogin">Entrar</button>
-            <button class="btnCad">Cadastrar</button>
+            <div class="logo" >
+                <img src="imgs/logo.png" alt="Logo da Empresa">
+                <h1>Optimus Tech</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Produtos</li>
+                    <li>Recursos</li>
+                    <li>Sobre nós</li>
+                </ul>
+            </nav>
+
+            <div>
+                <button class="btnLogin">Entrar</button>
+                <button class="btnCad">Cadastrar</button>
+            </div> 
     </header>
+    
     <div class="diferenciais">
 
         <p>
@@ -42,31 +51,30 @@
         todo o mundo a se concentrarem naquilo que é realmente importante para elas.
         
         </h2>
-
 </div>
 
 <section class="met">
 
 <div class="met1">
-<h1>400+</h1>
-<h2>Projetos concluídos</h2>
-<p>Nós ajudamos a construir mais de
-    <br>
-    400 projetos incríveis.
-    <br>
-</p>
+    <h1>400+</h1>
+    <h2>Projetos concluídos</h2>
+    <p>Nós ajudamos a construir mais de
+        <br>
+        400 projetos incríveis.
+        <br>
+    </p>
 </div>
 
 
 <div class="met2">
-<h1>100+</h1>
-<h2>Colaboradores</h2>
-<p>Temos mais de 100 colaboradores
-    <br>
-    no nosso time que se preocupam 
-    <br>
-    com nossos clientes.
-    </p>
+    <h1>100+</h1>
+    <h2>Colaboradores</h2>
+    <p>Temos mais de 100 colaboradores
+        <br>
+        no nosso time que se preocupam 
+        <br>
+        com nossos clientes.
+        </p>
 </div>
 
 
@@ -95,6 +103,8 @@
 </div>
 </section>
 
+<!------Parte do Gotuzzo----->
+
 <section class="jobs">
 
     <p class="anuncio"> Vagas abertas!</p>
@@ -106,38 +116,35 @@
         <img src="imgs/reuniao.png" class="foto-jobs">
     </div>
 
-    <div class="vagas">
-
+    <section class="vagas">
         <div class="design-vagas">
-            <h1 class="design">Design</h1>
-
-            <div class="emprego">
-                <h2>Product Designer</h2>
-
-                <p>Full-time</p>
-                <p>Faixa salarial: R$7.000</p>
-            </div>
-
-            <div class="emprego">
-                <h2>Ux designer</h2>
-
-                <p>Full-time</p>
-                <p>Faixa salarial: R$6.000</p>
-            </div>
+        <h1 class="design">Design</h1>
         </div>
+
+        <div class="emprego">
+            <h2>Product Designer</h2>
+            <p>Full-time</p>
+            <p>Faixa salarial: R$7.000</p>
+        </div>
+
+        <div class="emprego">
+            <h2>Ux designer</h2>
+            <p>Full-time</p>
+            <p>Faixa salarial: R$6.000</p>
+        </div>
+
         <div class="desenvolvimento-vagas">
             <h1>Desenvolvimento de Software</h1>
+        </div>
 
             <div class="emprego">
                 <h2>Desenvolvedor IOS</h2>
-
                 <p>Full-time</p>
                 <p>Faixa salarial: R$8.000</p>
             </div>
 
             <div class="emprego">
                 <h2>Desenvolvedor(a) Front-end</h2>
-
                 <p>Full-time</p>
                 <p>Faixa salarial: R$7.000</p>
             </div>
@@ -149,7 +156,9 @@
                 <p>Faixa salarial: R$8.000</p>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!------Parte da Talita------>
 
     <section id="depoimentos">
         <p id="vermelho"><strong>Veja o que nossos colaboradores falam sobre nós</strong</p>
@@ -158,16 +167,18 @@
         <h1 id="jc">Júlia Castro</h1>
         <p id="dev">Desenvolvedora Web</p>
     </section>
+
     <section id="nada"></section>
-    <section id="form">
-        <h1 id="op">Acompanhe as nossas oportunidades</h1>
-        <p id="vgab">Seja o primeiro a saber quando novas vagas serão abertas!</p>
-        <form action="email">
-        <input type="email" name="email" id="email" placeholder="Seu Email">
-        <input type="submit" value="Cadastrar" id="cad">
+
+    <footer id="form">
+            <h1 id="op">Acompanhe as nossas oportunidades<h1>
+            <p id="vgab">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+        <form>
+            <input type="email" name="email" id="email" placeholder="Seu Email">
+            <button type="submit" value="Cadastrar" id="cad">Enviar</button>
         </form>
         <p id="copy">&copy; 2022 OptimusTech. Todos os direitos reservados.</p>
-    </section>
+    </footer>
 
 </section>
 </body>
