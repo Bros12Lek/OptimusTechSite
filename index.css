@@ -9,11 +9,15 @@ header{
     position: relative;
     width: 100%; 
     height: 6rem;   
+    justify-content: space-around;
     align-items: center;
-    justify-content:space-evenly;
+    white-space: wrap;
 }
 
-
+header .logo{
+    display: flex;
+    align-items: center;
+}
 
 header img{
     width: 50px;
@@ -21,10 +25,7 @@ header img{
 }
 
 header ul li{
-    margin-right: 5px;
-    margin-left: 5px;
-    display: inline;
-    list-style: none;    
+    display: inline-flex;
     color: #667085;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -32,15 +33,11 @@ header ul li{
     font-size: 20px;
     line-height: 24px;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 10px;
     box-shadow: inset 0 0 0 0 #667085;
     color: #667085;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-header ul{
-    margin-left: 5rem;
 }
 
 .btnLogin{
@@ -66,6 +63,249 @@ header ul{
 
 
 header ul li:hover {
-  box-shadow: inset 100px 0 0 0 #667085;
-  color: white;
+   box-shadow: inset 100px 0 0 0 #667085;
+   color: white;
+}
+
+.jobs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.anuncio{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 90vh;
+    right: 90vh;
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(124, 124, 124);
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+    color: #8e2424;
+    background-color: rgba(196, 25, 25, 0.03);
+}
+
+.anuncio-2{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.anuncio-3{
+    display: flex;
+    justify-content: center;
+    color: rgb(189, 192, 192);
+}
+
+.foto-empregos{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.foto-jobs{
+    width: 88%;
+    margin: auto;
+    display: block;
+    border-radius: 2vh;
+}
+
+.design{
+    margin-top: 35px;
+}
+
+.vagas{
+    margin-top: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.vagas h1{
+    position: relative;
+    
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.design-vagas h1{
+    margin-bottom: 15px;
+}
+
+.emprego{
+    border: 1px solid rgb(190, 178, 178);
+    border-radius: 1vh;
+    margin-bottom: 25px;
+}
+
+.emprego h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.emprego p{
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+button{
+    border: none ;
+}
+
+.diferenciais{
+    
+    text-align: center;
+    margin-bottom: 9vh;
+    margin-top: 75px;
+}
+
+.diferenciais p{
+    color: #7c0a02;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+.diferenciais h1{
+    font-size: 60px;
+    margin-top: auto;
+}
+.diferenciais h2{
+    color: #667085;
+    font-size: 100%;
+    font-size: 18px;
+}
+
+
+.met{
+    display: flex;
+    align-self: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.met div{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.met h1{
+    font-size: 80px;
+    color: #7c0a02;
+    margin-bottom: 0px;
+
+}
+.met h2{
+    font-size: 29px;
+}
+
+.met p{
+    color: #667085;
+}
+
+#depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background: rgba(196, 25, 25, 0.03);
+    height: max-content;
+    width: 80%;
+    border-radius: 16px;
+    padding-top: 40px;
+}
+
+#form{
+    background-color: #F9FAFB;
+    height: 430px;
+    width: 100%;
+    padding-top: 96px;
+}
+
+#colab, #jc, #dev, #op, #copy, #vgab, #vermelho{
+    text-align: center;
+}
+
+figure{
+    margin: 0 auto;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+form #email{
+    height: 48px;
+    width: 360px;
+    border-radius: 8px;
+}
+
+#vermelho{
+    color: #7c0a02
+}
+
+#cad{
+    background-color: #7c0a02;
+    color: white;
+    height: 48px;    
+    width: 116px;
+    border-radius: 8px;
+}
+
+p{
+    color: #667085;
+}
+
+#copy{
+    color: #98A2B3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 5rem;
+}
+
+#nada{
+    padding: 46px;
+}
+
+#jc{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#dev{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#op{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#vgab{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#colab{
+    
+    line-height: 44px;
+}
+
+#dev{
+    font-size: 14px;
+    line-height: 20px;
 }
